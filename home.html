@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="views/menu.html; charset=UTF-8" />
+<title>Home</title>
+<link rel="icon" href="src\JC black.ico" type="image/x-icon">
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="css/Style_Slider.css"/>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+</head>
+<body>
+<div id="header"></div>
+<div class="supercontainer">
+<div id="menu"></div>
+<div class="containerprincipal">
+<div class="containerprincipalspace"></div>
+<div class="containerprincipaltitle">
+  <p><span class="title1">Take a look around !!! </span>    </p>
+  <p><span class="title2">Do you want to know more?, click on </span><span class="title3">&quot;ME&quot;</span></p></div>
+<div id="slider"></div>
+</div> <!-- close class containerprincipaltitle -->
+
+<section id="principal">
+            <article></article>
+</section>
+
+<div class="nav">
+</div><!-- cierra Nav -->
+
+<div id="App" ng-app="JCApp" >
+<h3>Hello {{ name }} {{ last }}</h>
+</div>
+
+
+<!-- google-->
+ <section layout="vertical" layout-sm="horizontal" layout-align="center center">
+      <md-list>
+        <md-item>
+        </md-item>
+        <md-item layout="row" layout-align="start start">
+          <md-button class="md-raised" md-theme="grey">
+            Open Dialog
+          </md-button>
+          <md-button class="md-raised" md-theme="grey">
+            Open Left Nav
+            <md-tooltip>Will open left nav</md-tooltip>
+          </md-button>
+        </md-item>
+        <md-divider></md-divider>
+</md-list>
+</section>
+<!-- google material design -->
+
+<div class="nav2">
+| home | cardboard | unity | blender | videomaker | android | about me |
+</div><!-- cierra Nav2 -->
+</div><!-- cierra container supercontainer -->
+
+<div id="footer"</div>
+</div><!-- cierra div bg --> 
+
+<!--    SCRIPTS    --> 
+<!-- Views --> 
+<script> 
+$( document ).ready(function() {
+$( "#header" ).load("views/header.html");
+$( "#menu" ).load("views/menu.html");
+$( "#maps" ).load("maps.html");
+$( "#slider" ).load("views/slider.html");
+$( "#footer" ).load("views/footer.html");
+});</script>
+
+<!-- Controllers --> 
+<script src="js/controllers/MainController.js"></script>
+
+<!-- Material Design --> 
+<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css">
+<script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</body>
+</html>
