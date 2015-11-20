@@ -1,0 +1,109 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #ccc;
+}
+
+div.containerslider{
+	width:860px;
+	height:440px;
+	margin-left: 10px;.
+	margin-right: 10px;
+	margin-bottom:10px;
+	margin-top:10px;
+	background-color:
+	}
+/*Slider Principal !!! */
+#slider {
+    width: 840px;
+    height: 420px;
+	margin-left: 10px;.
+	margin-right: 10px;
+	margin-bottom:10px;
+	margin-top:10px;
+    margin: 50px auto 0;
+    position: relative;
+    background: #fff;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+#slider ul {
+    width: 140px;
+    height: 40px;
+    padding: 0 0 0 0;
+    position: absolute;
+    z-index: 10;
+    list-style: none;
+    left: 50%;
+    margin-left: -70px;
+    bottom: -60px;
+}
+
+#slider ul li:first-child {
+    margin-left: 16px;
+}
+
+#slider ul li {
+    float: left;
+    margin-right: 12px;
+    margin-top: 14px;
+}
+
+#slider ul li:last-child {
+    margin-right: 0;
+}
+
+#slider ul li a {
+    width: 12px;
+    height: 12px;
+    display: block;
+    outline: none;
+    border: none;
+    position: relative;
+    z-index: 2;
+	background-color:rgb(128,128,128);
+    /*background: #aaa;*/
+    box-shadow: inset 0 1px 1px 0px rgba(0, 0, 0, 0.6), 0px 1px 1px 0px white;
+    -moz-box-shadow: inset 0 1px 1px 0px rgba(0, 0, 0, 0.6), 0px 1px 1px 0px white;
+    -webkit-box-shadow: inset 0 1px 1px 0px rgba(0, 0, 0, 0.6), 0px 1px 1px 0px white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#slider ul li a:hover {
+	background-color:rgb(241,90,36);
+}
+
+#slider img {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	opacity: 0;
+    transition: all .5s ease;
+	width: 819px;
+	height: 399px;
+}
+
+#slider img:target {
+    opacity: 1;
+}
+
+#slider img#five {
+    opacity: 1;
+	}
+
+#slider img:not(:target), #slider img:target ~ img#five  {
+ 	opacity: 0;
+}
+
+#one:target ~ ul li a[href="#one"],
+#two:target ~ ul li a[href="#two"],
+#three:target ~ ul li a[href="#three"],
+#four:target ~ ul li a[href="#four"],
+#five:target ~ ul li a[href="#five"] {
+  background-color:rgb(241,90,36);
+}
+

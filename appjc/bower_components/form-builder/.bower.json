@@ -1,0 +1,32 @@
+{
+  "name": "form-builder",
+  "version": "0.1.0",
+  "main": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "underscore": "~1.5",
+    "bootstrap": "~3.1",
+    "angular": "~1.2",
+    "angular-animate": "~1.2",
+    "angular-ui-utils": "~0.1",
+    "angular-bootstrap": "~0.10",
+    "moment": "~2.5",
+    "less.js": "~1.6",
+    "font-awesome": "~4.0",
+    "zxcvbn": "*"
+  },
+  "homepage": "https://github.com/DrAlexMV/FormBuilder",
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.0",
+    "commit": "7872565154ce910593a5ac7e5dd18511ec0e68ac"
+  },
+  "_source": "git://github.com/DrAlexMV/FormBuilder.git",
+  "_target": "0.1.0",
+  "_originalSource": "form-builder"
+}

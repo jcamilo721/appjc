@@ -1,0 +1,15 @@
+<div class="form-group has-feedback"
+     ng-class="{ 'has-error': form[name].$invalid && !form[name].$pristine,
+                 'has-success': form[name].$valid }">
+    <div class="input-group">
+        <span class="input-group-addon">
+            <i class="fa {{ icon.class }}"></i>
+        </span>
+        <transclude></transclude>
+    </div>
+    <span class="form-control-feedback no-label">
+        <i class="fa"
+           ng-class="{ 'fa-ban': form[name].$invalid && !form[name].$pristine,
+                       'fa-check': form[name].$valid }"></i>
+    </span>
+</div>

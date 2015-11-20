@@ -1,0 +1,80 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family:Gotham-Book;
+	}
+
+header{
+	margin:auto;
+	margin-top:100px;
+	width:1200px;
+	height:230px;
+	background-color:red;
+	}
+div.containerprincipal{
+	width:900px;
+	height:74px;
+	}
+div.container{
+	float:left;
+	height: 50pt;
+	-webkit-transition: height 0.6s;
+	padding-left:10px;
+	padding-right:10px;
+	margin-left: 6pt;.
+	margin-right: 6pt;
+	margin-bottom:6pt;
+	}
+
+div#sapori{
+	background-color:rgb(251,176,59);
+	}
+
+div#mestieri{
+	background-color:rgb(57,181,74);
+	}
+
+div#personaggi{
+	background-color:rgb(0,169,157);
+	}
+div#ricordi{
+	background-color:rgb(147,39,143);
+	}
+
+div#eventi{
+	background-color:rgb(212,20,90);
+	}
+
+div#cultura{
+	background-color:rgb(237,28,36);
+	}
+
+div#natura{
+	background-color:rgb(140,98,57);
+	}
+
+div#accoglienza{
+	background-color:rgb(96,56,19);
+	}
+
+div#altro{
+	background-color:rgb(102,102,102);
+	}
+
+p.testo{
+	font-family:Gotham-Light;
+	font-size: 12pt;
+	color:white;
+	text-align:center;
+	padding-top:45px;
+	opacity:0.6;
+	-webkit-transition: padding-top .6s;
+	}
+
+div.container:hover{
+	height:58pt;
+	}
+
+div.container:hover p.testo{
+	padding-top:55px;
+	}
