@@ -9,7 +9,8 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">= 0.10"
+    "node": "5.0.0"
+	"npm": "3.3.12"
   }  
   "repository": "https://github.com/jcamilo721/appjc",
   "devDependencies": {
